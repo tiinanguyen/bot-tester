@@ -13,7 +13,7 @@ checkCheckboxes: true
 
 # Keywords to look for in the body of the issue
 keywords:
-  - "describe the bug"
-  - "to reproduce"
-  - "expected behavior"
-  - "screenshots"
+  - describe the bug
+  - to reproduce
+  - expected behavior
+  - screenshots
