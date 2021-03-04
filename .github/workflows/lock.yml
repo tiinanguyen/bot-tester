@@ -1,8 +1,8 @@
 name: 'Lock Threads'
 
-#on:
-#  schedule:
-#    - cron: '0 0 * * *'
+on:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   lock:
@@ -12,4 +12,6 @@ jobs:
         with:
           github-token: ${{ github.token }}
           issue-lock-inactive-days: '1'
-          issue-lock-comment: 'This issue has been locked!'
+          issue-lock-comment: >
+            Testing. This issue has been locked!'
+          process-only: 'prs'
