@@ -15,3 +15,4 @@ jobs:
           issue-lock-comment: >
             Testing. This issue has been locked!'
           process-only: 'prs'
+          issue-lock-reason: ''
