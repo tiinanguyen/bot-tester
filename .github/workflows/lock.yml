@@ -14,5 +14,5 @@ jobs:
           issue-lock-inactive-days: '1'
           issue-lock-comment: >
             Testing. This issue has been locked!
-          process-only: 'issues'
+          process-only: issues
           issue-lock-reason: ''
