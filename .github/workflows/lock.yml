@@ -13,6 +13,6 @@ jobs:
           github-token: ${{ github.token }}
           issue-lock-inactive-days: '1'
           issue-lock-comment: >
-            Testing. This issue has been locked!'
+            Testing. This issue has been locked!
           process-only: 'prs'
           issue-lock-reason: ''
