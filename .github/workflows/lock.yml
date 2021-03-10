@@ -2,7 +2,7 @@ name: 'Lock Threads'
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 
 jobs:
   lock:
@@ -11,8 +11,8 @@ jobs:
       - uses: dessant/lock-threads@v2.0.1
         with:
           github-token: ${{ github.token }}
-          issue-lock-inactive-days: '1'
+          issue-lock-inactive-days: "1"
           issue-lock-comment: >
             Testing. This issue has been locked!
-          issue-lock-reason: ''
-          process-only: 'issues'
+          issue-lock-reason: ""
+          process-only: "issues"
