@@ -6,7 +6,7 @@ labelColor:
 
 # The text of the comment to add to the issue in addition to the label
 commentText: >
-  Hi! This needs more information. 
+  Hi! This needs more information. Check out this [link](https://stackoverflow.com/)!
 
 # Whether or not to ensure all checkboxes are checked
 checkCheckboxes: true
