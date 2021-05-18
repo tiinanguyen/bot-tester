@@ -12,6 +12,7 @@ jobs:
         with:
           github-token: ${{ github.token }}
           issue-lock-inactive-days: "1"
+          issue-exclude-labels: 'enhancement'
           issue-lock-comment: >
             Testing. This issue has been locked!
           issue-lock-reason: ""
